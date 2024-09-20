@@ -2,5 +2,26 @@
 
 .grid-alineamiento{
   display: grid;
-  grid: repeat(3,200px)/repeat(3,200px)
+  grid: repeat(2,200px)/repeat(3,200px);
+  justify-items: stretch;
+
+  justify-items: center;
+  justify-items: end;
+  justify-items: start;
+
+  align-items: stretch;
+  align-items: center;
+  align-items: start;
+  align-items: end;
+
+  place-items: center;
+}
+
+.item:nth-child(5){
+  background-color: brown;
+  color: #fff;
+  align-self: start ;
+  justify-self: end;
+  /*            Y X */
+  place-self: end end;
 }

@@ -1,0 +1,8 @@
+@import url(style.css);
+
+.grid-dinamica{
+  display: grid;
+  /* Permite que la grid sea dinamica, generando mas filas según sean necesarios */
+  grid-template-columns: repeat(auto-fill,minmax(100px, 1fr));
+  /* grid-auto-rows: 300px; */
+}

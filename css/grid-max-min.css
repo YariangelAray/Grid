@@ -1,0 +1,7 @@
+@import url(style.css);
+
+.grid-min-max{
+  display: grid;
+  grid-template-columns: repeat(4,minmax(min-content, max-content));
+  grid-template-columns: repeat(4,minmax(max-content, 300px));
+}
