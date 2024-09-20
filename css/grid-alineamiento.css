@@ -1,0 +1,6 @@
+@import url(style.css);
+
+.grid-alineamiento{
+  display: grid;
+  grid: repeat(3,200px)/repeat(3,200px)
+}

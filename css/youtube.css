@@ -7,7 +7,7 @@
 :root{
   --fondo: #0f0f0f;
   --letras-color: #cfcfcf;
-  --borde-ligero-color: #111;
+  --borde-ligero-color: #222;
   --borde-ligero: 1px solid var(--borde-ligero-color);
   --bordes-color: #555;
   --azul: #1c62b9;
@@ -15,7 +15,6 @@
 
 .content{
   height: 100vh;
-  background-color: #fff;
   display: grid;
   grid: 60px 1fr / 200px 1fr;
   grid-template-areas:
@@ -51,4 +50,5 @@
 
 .main{
   grid-area: main;
+  background-color: var(--fondo);
 }
